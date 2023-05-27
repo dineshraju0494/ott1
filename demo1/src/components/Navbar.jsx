@@ -24,6 +24,7 @@ const Navbar = () => {
             <Link to="/add">Add Movie</Link>
             <i id="sig" class='bx bxs-user-circle bx-tada' ></i>
             <h2>Sign-up</h2>
+            <h2>heloo</h2>
         </div>
       </nav>
     );
