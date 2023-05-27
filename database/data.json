@@ -1,0 +1,118 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "moviename": "Forrest Gump",
+      "hero": "Tom Hanks",
+      "heroine": "Robin Wright",
+      "director": "Robert Zemeckis",
+      "languages": [
+        "Tamil",
+        " English",
+        " Kannada",
+        " Hindi"
+      ],
+      "gerner": "Romance",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/forrest-gump-et00006453-1659687769.jpg",
+      "trailer": "https://www.youtube.com/embed/bLvqoHBptjg",
+      "release": "1994",
+      "rating": "9.5",
+      "synopsis": "Slow-witted Forrest Gump (Tom Hanks) has never thought of himself as disadvantaged, and thanks to his supportive mother (Sally Field), he leads anything but a restricted life. Whether dominating on the gridiron as a college football star, fighting in Vietnam or captaining a shrimp boat, Forrest inspires people with his childlike optimism. But one person Forrest cares about most may be the most difficult to save -- his childhood love, the sweet but troubled Jenny (Robin Wright)."
+    },
+    {
+      "id": 2,
+      "moviename": "Anbe Sivam",
+      "hero": "Kamal Haasan",
+      "heroine": "Kiran Rathod",
+      "director": "Sundar C",
+      "languages": [
+        "Tamil",
+        " English",
+        " Kannada",
+        " Hindi"
+      ],
+      "gerner": "FeelGood",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/anbe-sivam-et00065480-20-11-2017-04-42-27.jpg",
+      "trailer": "https://www.youtube.com/embed/lPLN69KAukE",
+      "release": "2003",
+      "rating": " 8.5",
+      "synopsis": "Anbarasu, an advertisement-filmmaker, goes to Bhubaneshwar on a business trip and gets stranded at an airport due to heavy rains. His life takes a turn when he meets Nallasivam, a co-passenger and befriends him."
+    },
+    {
+      "id": 3,
+      "moviename": "The Shawshank Redemption",
+      "hero": "Morgan Freeman",
+      "heroine": "Null",
+      "director": "Frank Darabont",
+      "languages": [
+        "Tamil",
+        " English",
+        " Kannada",
+        " Hindi"
+      ],
+      "gerner": "Mystery",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/the-shawshank-redemption-et00069227-22-04-2021-01-09-58.jpg",
+      "trailer": "https://www.youtube.com/embed/NmzuHjWmXOc",
+      "release": "1994",
+      "rating": "9.5",
+      "synopsis": "Andy Dufresne (Tim Robbins) is sentenced to two consecutive life terms in prison for the murders of his wife and her lover and is sentenced to a tough prison. However, only Andy knows he didn't commit the crimes. While there, he forms a friendship with Red (Morgan Freeman), experiences brutality of prison life, adapts, helps the warden, etc., all in 19 years."
+    },
+    {
+      "id": 4,
+      "moviename": "Kattradhu Thamizh",
+      "hero": "Jiiva",
+      "heroine": "Anjali",
+      "director": "Ram",
+      "languages": [
+        " Tamil",
+        " English",
+        " Kannada",
+        " Hindi"
+      ],
+      "gerner": "Romance",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg5SqxeOwyj9BaDj9aDbi7jLr6KmNCGR2JAQ&usqp=CAU",
+      "trailer": "https://www.youtube.com/embed/vPfVWb2Cl4Q",
+      "release": "2007",
+      "rating": "9",
+      "synopsis": "The movie revolves around an ordinary young Tamil-postgraduate, who is frustrated with the circumstances and futility of his job. He slowly loses his mental balance and becomes a psychopath."
+    },
+    {
+      "id": 7,
+      "moviename": "Inception",
+      "hero": "Leonardo DiCaprio",
+      "heroine": "Marion Cotillard",
+      "director": "Christopher Nolan",
+      "languages": [
+        "Tamil",
+        " English",
+        " Kannada",
+        " Hindi"
+      ],
+      "gerner": "Action Sci-fi",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/inception-et00004883-03-02-2021-07-04-48.jpg",
+      "trailer": "https://www.youtube.com/embed/YoHD9XEInc0",
+      "release": "2010",
+      "rating": "8.8",
+      "synopsis": "Dom Cobb (Leonardo DiCaprio) is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious. His skill has made him a hot commodity in the world of corporate espionage but has also cost him everything he loves. Cobb gets a chance at redemption when he is offered a seemingly impossible task: Plant an idea in someone's mind. If he succeeds, it will be the perfect crime, but a dangerous enemy anticipates Cobb's every move."
+    },
+    {
+      "id": 9,
+      "moviename": "Panchatanthiram",
+      "hero": "Kamal Haasan",
+      "heroine": "Simran",
+      "director": "K.S. Ravikumnar",
+      "languages": [
+        "Tamil",
+        " English",
+        " Kannada",
+        " Hindi"
+      ],
+      "gerner": "Comedy Romance",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/panchathanthiram--iemv076117-26-05-2021-13-04-16.jpg",
+      "trailer": "https://www.youtube.com/embed/KGc5PWXs7UM",
+      "release": "2002",
+      "rating": "7.8",
+      "synopsis": "A reformed womanizer's life becomes a three-ring-circus when he gets dumped by his untrusting wife, gets entangled in a murder mystery with his four married friends, and ends up with smuggled diamonds in his possession."
+    }
+  ]
+}

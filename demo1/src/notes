@@ -1,0 +1,156 @@
+Componenets
+   In react js w split each and every structure of our web page as a component.
+   Components in react is a  function or a class which returns JSX value.
+
+   1) Functional Component
+        if  we return a template using a function, this is the most widey
+        used  type of component in developmemt mode because of it'a advantages.
+
+        syntax  : function Componentname(){
+            returnb (JSX)
+        }
+
+   2) Class components
+        if  we return a template using a class with render, now a days class
+        components are being ignored because of its disadvantages.
+
+        syntax : class componenetname extends Component
+        {
+            render(){
+                return(JSX)
+            }
+        }
+
+JSX and babel 
+   JSX is a combination of JS + XML, which will allow programmer to write a HTML
+   template inside the JS.
+   ---> We can write predefined tags and also the custom tags.
+   ---> JSX is a special JS value but our run time environment(Node JS) cannot
+        understand these values.
+   ---> Babbel as a transpiler with will convert the special JS value to normal JS values.
+
+
+React Fragments :
+   ---> In JS we know our function can return a single value.
+   ---> But in React JS if we try to return multiple JSX template, it will throw an error.
+   ---> We can resolve it by using fragments in react.
+   ---> React fragments can be any scementric or JS fragment(<> </>).
+
+
+Formating in react :
+   ---> React is a combination of HTML(jsx) and JS do we have to format the code, when
+        it is nested.
+   ---> <HTML> {JS code} <HTML>.
+   ---> <JS code> (<HTML>) <JS code>.
+
+
+Dynamic Values :
+   ---> In React JS we can access the JS values with the help of  curlu braces.
+   ---> Only numbers and string data type values can be printed.
+
+   EX : <h1> {variable} </h1>
+        <input type = "number" step = {varibale}/>
+
+
+Adding styles in React
+  1) Inline
+        In react inline CSS should be added as a object properties because it 
+         is a JS(special value)
+  
+      Syntax : <Tag style = {{CSS prop in camel case : "value",}} />
+    
+  2) External
+        no changes
+
+
+NOTE :
+
+HTML class attribute should be used as className to differentiate with JS clas keyword.
+      
+Event Handling in react JS 
+  Event handling in react can be done by using event listners as an attributes.
+
+  1st case : when events are 0 argumented just pass the function reference to the event
+             listiners.
+             Ex : <button onClick={function reference}> click </button>.
+
+ 2nd case : when events are  argumented we take the help of call backs and then invoke our
+            functions inside the call back function.
+            Ex : <button onClick={()=>{Fname(args)}}> click </button>.
+
+HOOkS :
+    Hooks in react is used to hang upon some features for our react Application.
+    Instead of writting the code to achive that feature, we use the hooks(inbuilt method of react)
+
+    State Managment in React :
+     In react we use dynamic values, and whenever that dynamic value is updated the current 
+     component should be rerender then only we can updated value in UI.
+
+1) useSate() - state managment :
+    useState hook can be used to achieve the state managment.
+    useState will accept a single value and returns an array of 2 elements only.
+
+    syntax :  let [variable, setvariable] = usestate(initial value)
+
+    access  a value ---> <h1>{variable}</h1>
+
+    update a value  ---> setVariable( updating value)
+
+Conditional rendering in react :
+
+   We need to executes some set of structure base
+    upon some condition.
+
+2)  useEffect() - side effects 
+      To execute some set of statements for several renders and re-renders of the component
+      we can use useEffect.
+ 
+    1) useEffect(()=>{})                ---> Initial Render & every Re-Render.
+    2) useEffect(()=>{},[])             ---> Initial Render.
+    3) useEffect(()=>{},[dependency])   ---> Initial Render & Re-Render only for specified dependency.
+
+
+State Management
+ 
+1) rendering one structure based on one condition
+            { condition && <JSX/>}
+
+2) render any one out of two based on one condition
+           { condition ? <JSX1> : <JSX2> }
+
+
+Multiple components :
+    In react we divide the entire application into several different components, but we need to 
+    call the components what we have created inside the App component because App component is the
+    only component rendered to INDEX.HTML
+
+Displaying Multiple data :
+   In React we will fetch the multiple data from the database, nut we cannot write multiple
+   JSX template so we take a help of array map to return multiple JSX template based on
+   the number of datas we have.
+
+   syntax : array.map((value)=> {return <JSX template/>})
+
+
+Props : 
+ In react we can send the dat from parent component to child component with the help of
+ object properties or ***props***.
+
+ Syntax : function Parent(){
+    return (
+        <Child key={value}/>
+    )
+ }
+ function child({key}){
+    return(
+        <h1>{key}</h1>
+    )
+ }
+ 
+ Fetching the data in react( with the help of promise cocept)
+  1) fetch()
+  2) axios()
+ 
+  fetch(api and point)
+  .then((res)=>{return res.json()})
+  .then((data)=>{use the data})

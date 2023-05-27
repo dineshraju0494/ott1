@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@200&family=Poppins:wght@300;400&family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Foldit:wght@200&family=Poppins:wght@300;400&family=Rubik+80s+Fade&display=swap');
+
+/* .input-box{
+  position: relative;
+  width: 200px;
+  height: auto;
+  margin: 50px auto;
+  padding : 20px;
+  border: solid 2px black;
+}
+
+input{
+  display: block;
+  width: 160px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+input:focus{
+  outline: none;
+  border: 2px solid rgb(0, 215, 122) ;
+  border-radius: 5px;
+}
+span{
+  color: black;
+  background-color: white;
+  position: absolute;
+  top: 28px;
+  left: 28px;
+}
+.input-box input:focus~span{
+  color: rgb(0, 215, 122);
+   top : 10.5px;
+   transform: scale(0.7);
+   transition: 0.3s linear;
+} */
+
+/* body{
+  text-align: center;
+  background-color: aqua;
+} */
+/* table{
+  margin: auto;
+  box-shadow: 2px 2px 8px black;
+}
+form{
+  margin: 20px auto;
+}
+input{
+  margin: 0px 4px;
+}
+thead{
+  background-color: white;
+  position: sticky;
+  top: 0px;
+} */
+/* .translate-page{
+  width: 55%;
+  height: 400px;
+  background-color: black;
+  margin: auto;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  box-sizing: border-box;
+}
+/* ----------------------------NAV STYLE-------------------------------------  */
+
+#loaing{
+  color: white;
+  font-size: 50px;
+}
+#load{
+  color: white;
+}
+#lo{
+  font-size: 50px;
+}
+#log{
+  color: white;
+  background-color: black;
+  width: 80px;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+  margin-left: -80px;
+  font-size: 15px;
+}
+nav{
+  height: 100px;
+  color: white;
+  background-color: #92a8d1;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+#add-movie{
+  display: flex;
+}
+#sig{
+  font-size: 40px;
+}
+#logo h1{
+  font-family: 'Bruno Ace SC', cursive;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+#search input{
+  width: 300px;
+  height: 35px;
+  border: none;
+  padding-left: 20px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+#search button{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  width: 80px;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+  margin-left: -80px;
+  font-size: 15px;
+}
+#add-movie a{
+  font-size: 18px;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.2s linear;
+}
+#add-movie a:hover{
+  background-color: white;
+  color : black;
+}
+
+
+/* ----------------------------HOME STYLE-------------------------------------  */
+
+.home{
+  padding: 20px 100px;
+  background-color: black;  
+}
+a{
+  text-decoration: none;
+}
+
+.movies{
+  color: white;
+  width: 80vw;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.movie{
+  width: 250px;
+  height: auto;
+  text-align: center;
+  padding: 12px;
+  border: solid 1px black;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+.movie img{
+  width: 100%;
+  height: 250px;
+  border-radius: 6px;
+}
+.movie:hover{
+  color: white;
+  background-color: white;
+  transform: scale(1.05);
+  border: solid 2px white;
+}
+.movie-details{
+  padding: 0px 50px;
+  margin: auto;
+}
+#title{
+  color: black;
+  background-color: white;
+  text-align: center;
+  position: sticky;
+  top: 100px;
+  z-index: 200;
+}
+#mo{
+  color: white;
+  background-color: black;
+}
+#field
+{
+  padding: 0px 20px;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+}
+#add{
+  padding: 0px 20px;
+  align-items: center;
+  text-align: center;
+}
+/* ----------------------------ADD MOVIE-------------------------------------  */
+.add-movie{
+  width: 80vw;
+  margin: 50px auto;
+  text-align: center;
+}
+.add-movie h1{
+  margin: 20px;
+}
+.add-movie form{
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: solid 2px black;
+  border-radius: 8px;
+  background-color: black;
+}
+.add-movie form input{
+  display: inline-block;
+  width: 80%;
+  height: 35px;
+  margin: 5px auto;
+  border-radius: 4px;
+  border: solid 1px black;
+  transition: 0.2s;
+}
+.add-movie form input:focus{
+  transform: scale(1.1);
+}
+.add-movie form input[type="checkbox"]
+{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  color: white;
+}
+.add-movie form input::placeholder
+{
+  padding-left: 20px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.add-movie form fieldset{
+  color: white;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 30px 100px 30px 100px 30px 100px;
+}
+.add-movie form textarea{
+  width: 80%;
+  margin: auto;
+} 
+.add-movie form input[type="submit"]
+{
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  font-family: 600;
+  width: 200px;
+  height: 40px;
+  margin: 20px auto;
+  transition: 0.2s
+}
+#fav-movie{
+  font-size: 18px;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.2s linear;
+}
+#fav-movie :hover{
+  background-color: white;
+  color : black;
+}
+
+/* ----------------------------Like Button-------------------------------------  */
+
+.add-btn{
+  color: red;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+}
+
+.remove-btn{
+  color: red;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  animation: filledheart 0.5s ;
+}
+
+@keyframes filledheart{
+  0%{
+    transform: scale(0);
+  }
+  60%{
+    transform: scale(5);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
